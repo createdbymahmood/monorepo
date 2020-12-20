@@ -1,6 +1,11 @@
 {
     "name": "monorepo",
     "private": true,
+    "scripts": {
+        "start": "lerna run start --parallel",
+        "start:app": "lerna run start --scope=application",
+        "start:components": "lerna run start --scope=components"
+    },
     "devDependencies": {
         "lerna": "^3.22.1"
     }
