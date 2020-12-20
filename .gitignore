@@ -39,3 +39,5 @@ packages/*/yarn-error.log*
 
 
 packages/*/.eslintcache
+
+packages/*/debug.log
