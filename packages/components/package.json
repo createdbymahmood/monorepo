@@ -44,6 +44,7 @@
     },
     "devDependencies": {
         "react-styleguidist": "11.1.5",
-        "sass": "1.30.0"
+        "sass": "1.30.0",
+        "tsconfig-paths": "3.9.0"
     }
 }

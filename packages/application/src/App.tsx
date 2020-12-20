@@ -1,7 +1,11 @@
-import { Button } from '@monorepo/components';
-
+import { Button } from '@components';
 function App() {
-    return <Button />;
+    return (
+        <div>
+            <Button />
+            <div></div>
+        </div>
+    );
 }
 
 export default App;
