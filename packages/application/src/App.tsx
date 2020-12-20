@@ -1,4 +1,4 @@
-import { Button } from "@monorepo/components";
+import { Button } from '@monorepo/components';
 
 function App() {
     return <Button />;
