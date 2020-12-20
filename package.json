@@ -9,9 +9,11 @@
         "add:package": "lerna add --exact",
         "add:package:app": "lerna add --exact --scope=@monorepo/application",
         "add:package:app-ssr": "lerna add --exact --scope=@monorepo/application-ssr",
-        "add:package:components": "lerna add --exact --scope @monorepo/components"
+        "add:package:components": "lerna add --exact --scope @monorepo/components",
+        "format": "prettier --write \"packages/**/*.{js,jsx,ts,tsx}\""
     },
     "devDependencies": {
-        "lerna": "^3.22.1"
+        "lerna": "^3.22.1",
+        "prettier": "^2.2.1"
     }
 }
