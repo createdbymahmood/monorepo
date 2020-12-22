@@ -1,3 +1,2 @@
-// next.config.js
-const withTM = require('next-transpile-modules')(['../components']); // pass the modules you would like to see transpiled
+const withTM = require('next-transpile-modules')(['@monorepo/components']);
 module.exports = withTM();
