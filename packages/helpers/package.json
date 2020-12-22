@@ -1,0 +1,19 @@
+{
+    "name": "@monorepo/helpers",
+    "version": "1.0.0",
+    "description": "TODO: description",
+    "author": "Mahmud Bagheri <createdbymahmood@gmail.com>",
+    "homepage": "https://github.com/createdbymahmood/monorepo#readme",
+    "license": "ISC",
+    "main": "src/index.ts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/createdbymahmood/monorepo.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1"
+    },
+    "bugs": {
+        "url": "https://github.com/createdbymahmood/monorepo/issues"
+    }
+}
