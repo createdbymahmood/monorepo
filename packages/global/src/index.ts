@@ -1,5 +1,4 @@
 import create from 'zustand';
-
 export const useStore = create((set) => ({
-    bears: 2,
+    bears: 1,
 }));

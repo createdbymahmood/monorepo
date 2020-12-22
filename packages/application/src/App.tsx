@@ -1,5 +1,5 @@
-import { useStore } from '@monorepo/global';
 import { Button } from '@monorepo/components';
+import { useStore } from '@monorepo/global';
 
 function App() {
     const bears = useStore((state) => state.bears);
