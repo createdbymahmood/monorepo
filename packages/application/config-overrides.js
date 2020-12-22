@@ -5,5 +5,6 @@ module.exports = override(
     babelInclude([
         path.resolve('src'), // make sure you link your own source
         path.resolve('../components'),
+        path.resolve('../global'),
     ])
 );

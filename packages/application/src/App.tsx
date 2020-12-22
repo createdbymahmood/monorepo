@@ -1,7 +1,14 @@
+import { useStore } from '@monorepo/global';
 import { Button } from '@monorepo/components';
 
 function App() {
-    return <Button />;
+    const bears = useStore((state) => state.bears);
+    return (
+        <div>
+            {JSON.stringify(bears)}
+            <Button />
+        </div>
+    );
 }
 
 export default App;
