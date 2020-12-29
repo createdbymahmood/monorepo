@@ -1,6 +1,6 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
-
+const WebpackBar = require('webpackbar');
 module.exports = {
     target: 'node',
     node: {
@@ -17,6 +17,7 @@ module.exports = {
         publicPath: '/',
         libraryTarget: 'commonjs2',
     },
+    stats: 'errors-only',
     optimization: {
         splitChunks: {
             automaticNameDelimiter: '_',
@@ -47,5 +48,5 @@ module.exports = {
             },
         ],
     },
-    plugins: [],
+    plugins: [new WebpackBar()],
 };

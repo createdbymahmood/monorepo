@@ -1,14 +1,4 @@
-// {
-//     "presets": ["@babel/env", "@babel/typescript"],
-//     "plugins": [
-//         "@babel/proposal-class-properties",
-//         "@babel/proposal-object-rest-spread",
-//         "@babel/plugin-transform-typescript",
-//         "babel-plugin-module-resolver"
-//     ]
-// }
 module.exports = function (api) {
-    const { NODE_ENV } = process.env;
     api.cache(() => 'production');
     api.env();
 
