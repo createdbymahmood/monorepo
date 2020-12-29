@@ -8,6 +8,7 @@ packages/*/node_modules
 packages/*/.pnp
 .pnp.js
 packages/*/.pnp.js
+packages/*/dist
 
 # testing
 /coverage

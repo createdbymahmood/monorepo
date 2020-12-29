@@ -4,17 +4,6 @@
     "workspaces": [
         "packages/*"
     ],
-    "scripts": {
-        "start": "lerna run start --parallel",
-        "start:app": "lerna run start --scope @monorepo/application",
-        "start:app-ssr": "lerna run start --scope @monorepo/application-ssr",
-        "start:components": "lerna run start --scope @monorepo/components",
-        "format": "prettier --write packages/**/*.{js,jsx,ts,tsx}",
-        "format:app": "prettier --write packages/application/**/*.{js,jsx,ts,tsx}",
-        "format:app-ssr": "prettier --write packages/application-ssr/**/*.{js,jsx,ts,tsx}",
-        "format:components": "prettier --write packages/components/**/*.{js,jsx,ts,tsx}",
-        "docs:components": "lerna run start:docs --scope @monorepo/components"
-    },
     "devDependencies": {
         "lerna": "^3.22.1",
         "prettier": "^2.2.1"
