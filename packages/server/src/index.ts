@@ -1,6 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import { removeIndex } from '@monorepo/helpers';
+import { someHelper } from 'helpers';
 const app = express();
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -15,4 +16,5 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     res.json({ result: req?.body });
 });
+someHelper();
 app.listen(3000);
